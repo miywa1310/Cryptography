@@ -5,7 +5,7 @@ import MainLayout from './layouts/MainLayout';
 import Home from './pages/Home';
 import CezarPage from './pages/ CezarPage';
 import VijinerPage from './pages/VijinerPage';
-import KvadratPage  from './pages/AffinePage';
+import AffinePage  from './pages/AffinePage';
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         <Route index element={<Home/>} />
         <Route path="/cezar" element={<CezarPage />} />
         <Route path="/vijiner" element={<VijinerPage />} />
-        <Route path="/kvadrat" element={<KvadratPage />} />
+        <Route path="/affine" element={<AffinePage />} />
         </Route>
       </Routes>
     </BrowserRouter>
