@@ -18,7 +18,7 @@ const Methods = () => {
         {
           name: 'Affin shifrlaw usılı(qaraqalpaqsha)',
           description: 'Affin shifrlaw usılı - bul klassikalıq simmetriyalıq giltli shifrlaw usıllarınan biri bolip, hárbir háripti matematikalıq formula tiykarında basqa háripke almastıradı. Bul usıl Cezar shifrinan quramalıraq.',
-          path: '/kvadrat',
+          path: '/affine',
         },
       ];
     return (
